@@ -1,0 +1,83 @@
+* {
+    font-family: 'Nunito';
+    background-color:#FFFFFF;
+}
+
+form{
+    max-width: 40vw;
+    margin: 5vw auto;
+    padding: 1vh 1vw;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 8px;
+
+}
+
+form input[type="text"], form input[type="email"], form input[type="password"], textarea, select{
+    background-color: #F3F7F8;
+    font-size: 16px;
+    margin: 0px;
+    padding: auto;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px
+}
+
+fieldset{
+    margin-bottom: 20px;
+    border: none;
+}
+
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin: 0 4px 8px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+button{
+    width: 300px;
+    height: 30px;
+    background-color: #48C96D;
+    color: white;
+}
+
+label{
+    display: block;
+}
+
+label.light{
+    display: inline;
+}
+
+.num {
+    background-color: #48C96D;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 30px;
+}
+
+label {
+    background-color: none;
+}
+
+button{
+    margin-top: 1em;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+}

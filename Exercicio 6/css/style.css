@@ -1,0 +1,53 @@
+.telas {
+    display: none;
+    background-color: #FCFEF3;
+    border: solid;
+    border-color: #d9ff2f;
+    height: 80vh;
+    width: 100vw;
+}
+
+#telaProf {
+	border-color: red;
+}
+
+div {
+	margin-top: 1em;
+}
+
+button {
+    background-color: #E8FAFA;
+    border-radius:8px;
+    border-color: blue;
+    font-size: 1.2rem;
+	margin: 0.2em;
+}
+
+li {
+	list-style-type: none;
+	text-align: center;
+	border: solid;
+	border-color: #f1ffb1;
+	display: block;
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+#telaProf li {
+	border-color: #ff7171;
+}
+
+.top-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.telas button {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    min-height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    background-color: #d5f4e6;
+}
+
+footer {
+    min-height: 2vh;
+    margin-top: auto;
+    color: green;
+    background-color: #d5f4e6;
+    text-align: center;
+}
+
+ul, li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 1vw;
+}
+
+.flex-container img {
+    width: 20vw;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 2rem;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70vw;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.flex-container > div{
+    /*flex-grow
+        flex-shrink
+        flex-basis
+    */
+    flex:1 1 0.5vh;
+    margin: 2vh;
+}
+
+form {
+    max-width: 30vw;
+    margin: 5vh auto;
+}
+
+input, button, textarea {
+    display: block;
+    border: none;
+    box-shadow: 0px 1px;
+    margin-bottom: 2vh;
+    width: 100%;
+}
+
+fieldset {
+    padding: 2vh;
+    border-radius: 2vh;
+}
+
+.sobre {
+    margin: auto;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+form h1 {
+    margin-top: 0;
+}
+
+.perguntas article {
+    margin-bottom: 3vh;
+}
+
+.perguntas {
+    margin: 2vh auto;
+    max-width: 40vw;
+}
+
+.perguntas h2{
+    font-size: 1rem;
+}
+
+.perguntas h1{
+    margin-bottom: 2vh;
+}
+
+p {
+    text-align: justify;
+}

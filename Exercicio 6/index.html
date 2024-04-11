@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-btn">
+        <button type="button" onclick="telas(0)"> Aluno </button>
+        <button type="button" onclick="telas(1)"> Professor </button>
+    </div>
+
+
+    <div class="telas" id="telaAluno">
+        <ul id="lstAluno">
+
+        </ul>
+        <button type="button" onclick="addPessoa(0)"> Adicionar Aluno </button>
+    </div>
+
+    <div class="telas" id="telaProf">
+        <ul id="lstProf">
+
+        </ul>
+        <button type="button" onclick="addPessoa(1)"> Adicionar Professor </button>
+    </div>
+
+</body>
+</html>
