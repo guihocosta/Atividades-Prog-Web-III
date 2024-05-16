@@ -32,7 +32,7 @@ function autenticar() {
     }
 
     else {
-        usuario.style.borderBlockColor = "";
+        usuario.style.borderBlockColor = "green";
         p1.innerText = "";
     }
 
@@ -49,7 +49,7 @@ function autenticar() {
 
 
     else {
-        password.style.borderBlockColor = "";
+        password.style.borderBlockColor = "green";
         p2.innerText = "";
     }
 }
