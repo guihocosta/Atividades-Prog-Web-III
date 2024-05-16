@@ -17,16 +17,16 @@ function menu() {
 
 function autenticar() {
     const usuario = document.getElementById("idUsu");
-    const txtUsu = usuario.value;
+    const txtUsu = usuario.value.trim();
 
     const password = document.getElementById("idPwd");
-    const txtPwd = password.value;
+    const txtPwd = password.value.trim();
 
     const p1 = document.getElementById("idAviso");
     const p2 = document.getElementById("idAviso2");
 
 
-    if (txtUsu == "") {
+    if (txtUsu === "") {
         usuario.style.borderBlockColor = "red";
         p1.innerText = "Usuário precisa ser preenchido";
     }
@@ -36,7 +36,7 @@ function autenticar() {
         p1.innerText = "";
     }
 
-    if (txtPwd == "") {
+    if (txtPwd === "") {
         password.style.borderBlockColor = "red";
         p2.innerText = "Senha precisa ser preenchida";
     }
